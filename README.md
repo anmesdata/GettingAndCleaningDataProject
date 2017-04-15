@@ -1,4 +1,4 @@
-## Getting and Cleaning Data Project
+# Getting and Cleaning Data Project
 
 This repository contains the required submissions for the JHU Data Science Getting and Cleaning Data Project.
 
