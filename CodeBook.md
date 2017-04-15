@@ -1,4 +1,4 @@
-## Getting and Cleaning Data Project
+# Getting and Cleaning Data Project
 
 # Data Source
 
@@ -13,12 +13,31 @@ The group of volunteers included 30 people between the ages 19-48. Each person p
 
 # Analysis done to clean the data as required
 
-*The dataset was downloaded and unzipped
-*All the training data and testing data was read into R
-*The activity labels were also read into R
-*Appropriate column names were assigned as need
-*All the data was merged into one data frame
-*Only mean and std dev data was extracted for each measurement
-*An independent data frame was created with the mean of each variable for each subject and for each activity
-*The column names were cleaned up
-*The tidy dataset was written to a txt file
+The dataset was downloaded and unzipped
+
+All the training data and testing data was read into R
+
+The activity labels were also read into R
+
+Appropriate column names were assigned as need
+
+All the data was merged into one data frame
+
+Only mean and std dev data was extracted for each measurement
+
+An independent data frame was created with the mean of each variable for each subject and for each activity
+
+The column names were cleaned up
+
+The tidy dataset was written to a txt file
+
+# Variables
+
+xtrain, ytrain, subjecttrain - these variables contain training data in the raw form
+xtest, ytest, subjecttest - these variables contain testing data in the raw form
+features - contains features data
+activitylabels - contains activity labels data
+totaltrain - the merged training data with column names
+totaltest - the merged testing data with column names
+fulldata - merged training and testing data
+data_subsetted - required tidy data with only mean and std dev information extracted
