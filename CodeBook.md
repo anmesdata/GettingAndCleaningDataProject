@@ -34,10 +34,17 @@ The tidy dataset was written to a txt file
 # Variables
 
 xtrain, ytrain, subjecttrain - these variables contain training data in the raw form
+
 xtest, ytest, subjecttest - these variables contain testing data in the raw form
+
 features - contains features data
+
 activitylabels - contains activity labels data
+
 totaltrain - the merged training data with column names
+
 totaltest - the merged testing data with column names
+
 fulldata - merged training and testing data
+
 data_subsetted - required tidy data with only mean and std dev information extracted
